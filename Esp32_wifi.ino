@@ -9,8 +9,8 @@
 #include <WiFiType.h>
 #include <WiFiUdp.h>
 
-const char* ssid = "Slimshady";
-const char* password = "slimshady";
+const char* ssid = "******";
+const char* password = "*******";
 void setup() {
   Serial.begin(115200);
 WiFi.begin(ssid, password);
